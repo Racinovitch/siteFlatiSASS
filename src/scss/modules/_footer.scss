@@ -1,0 +1,35 @@
+footer{
+    width:100%;
+    color: white;
+    text-align: center;
+    background-color: $subBlue;
+    #part1{
+        height:200px;
+        padding: 1%;
+        width: 80%;
+        margin:auto;
+        #part11 p{
+            font-size:x-large ;
+        }
+    }
+    #icons{
+        width: 25%;
+        margin: auto;
+        display:flex;
+        justify-content: space-evenly;
+        font-size: x-large;
+        opacity: 30%;    
+    }
+    #part3{
+        width:100%;
+        height:50px;
+        background-color:$bleuNav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            opacity: 25%;
+            font-size:small;
+        }
+    }
+}
